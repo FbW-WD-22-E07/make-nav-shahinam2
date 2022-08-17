@@ -1,0 +1,35 @@
+/* Nav with old style */
+.nav1 {
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    display: inline-block;
+    height: 100%;
+    width: 90%;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* vertical-align: middle; */
+}
+
+.nav1 a {  
+    margin-left: 90px;
+    
+}
+
+/* Nav bar with flexbox */
+
+.nav2 {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    height: 15vh;
+}
+
+/* Make the text bigger on hover */
+
+a:hover {
+    cursor: pointer;
+    font-size: 30px;
+}
